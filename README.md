@@ -18,5 +18,10 @@ Prior to installation we need the following
 
 ## Running Project
 
-To run the application use the following command under your poject folder
-- php -S localhost:8800 -t public
+To run the API use the following command under your poject folder
+- node server.js (will run the api server on port 8080 i.e 
+
+Call to API using 
+- HTTP Method - POST
+- URL : 127.0.0.1:8080/api/tax 
+- POST Data : ['form_fields' => JSON request object]
